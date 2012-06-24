@@ -2,16 +2,16 @@ Ember Safe Clone: A jQuery plugin to clone ember views
 ======================================================
 
 EmberSafeClone is a plugin that allows the dom strucuture of an ember view to be safely cloned.
-It works by removing all traces of ember id's and metamorph script tags in the view node and
-it's subtree.
+It works by removing all traces of ember id's, classes and metamorph script tags in the view node
+and it's subtree.
 
-This plugin is a javascript port of the [coffeescript solution](http://codebrief.com/2012/03/eight-ember-dot-js-gotchas-with-workarounds/) posted by Gordon Hempton
+This plugin was inspired by the [coffeescript solution](http://codebrief.com/2012/03/eight-ember-dot-js-gotchas-with-workarounds/) posted by Gordon Hempton
 
 Usage
 -----
 First load jQuery and the plugin
 ```
-<script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.js" type="text/javascript"></script>
 <script src="jquery.ember-clone.js" type="text/javascript"></script>
 ```
 
